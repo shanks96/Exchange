@@ -9,7 +9,7 @@ import java.net.http.HttpResponse;
 public class Exchange {
 
     public String Exchange() throws IOException, InterruptedException {
-        String url = "https://v6.exchangerate-api.com/v6/47815d900b581c4d29b756a3/latest/USD";
+        String url = "https://v6.exchangerate-api.com/v6/YOUR-API-KEY/latest/USD";
 
         // Making Request
         HttpClient client = HttpClient.newHttpClient();
