@@ -9,6 +9,7 @@ import java.net.http.HttpResponse;
 public class Exchange {
 
     public String Exchange() throws IOException, InterruptedException {
+        //Genera y coloca tu API para que la consulta funcione
         String url = "https://v6.exchangerate-api.com/v6/YOUR-API-KEY/latest/USD";
 
         // Making Request
